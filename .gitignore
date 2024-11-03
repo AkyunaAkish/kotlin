@@ -1,0 +1,65 @@
+### Kotlin ###
+*.class
+*.log
+*.ctxt
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Kotlin compiled directories
+out/
+build/
+*.kotlin_module
+
+### Gradle ###
+.gradle/
+build/
+
+# Preserve Gradle wrapper
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+/shelf/
+/workspace.xml
+.idea_modules/
+/httpRequests/
+/dataSources/
+/dataSources.local.xml
+
+### Eclipse ###
+.classpath
+.project
+.settings/
+bin/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
+
+### Environment Files ###
+.env
+.env.*
+!.env.example
+
+### Local Configuration ###
+local.properties
+/local.properties
+
+### Test Reports ###
+test-output/
+reports/
+
+### Logs ###
+logs/
+*.log.*
